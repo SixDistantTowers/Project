@@ -1,0 +1,40 @@
+{
+  "servers": {
+    "main": {
+      "type": "relay",
+      "platform_id": "vk.com",
+      "call_id": "hKOpUUMovqf0sM932b1ga-Zg4QRlG31H0TFhPMmNsME",
+      "pub_key": "8ViXLrof0YRM58eL6Dwt/8ceJ6fKnCQC8jBIuNAsv1iUobGDL7mHrgoXKHMTe8YDNcDOzzSUKPOncgdYZtoPqFkKDyw/6erIztEy7lK5SPF2FdNfRgFYxWCz+INhBiVWvWZPS0bC1dm0u0s6tOmRuhIjUnsS9aJqtIyBRDW8jxwibmDHQ/hG82QQ0MoFpPlhY4JE+nqxx3bI6nJYW9QI2tq40ye3ZOd0gOma9QmIHvi+twN9nae5nHatS0CQ/iGxqkmqU3Nw0pSjsfJySdoUUdfKHDQNa+WDSSOsoUY/StiaS6aSWuEgLzQS16mSTxA6/Im2rqw54sBpibh0h6YCakwPowJOQQSiGbixMyU0XgXKVEgQKOueRdU7D2MKnGCgBTc33gV/4UE9MVLLfuO5nPOD8sW/1YowE5Ih3DpwDUGECgEgGDWz8IWIUdeUHDIGoLKHV5hpbEsMkDhf6LBw7EJ9Dyp56+K0f+EhGusTEuBYMkVXaklHBKZs43aDIIRJkqwQSlwmgJi4SulTkpy9ItNNOGK6/QgTdvue7MRTrCa8Q4CS+kG4bFJg24lPpwt+hYV3D7ZcrywalTZc2AmyKJzOmAmkbFQFxjLHVzDBB0RJ6FiYKjuSN1Z2TyDB+BSMHHF0XmK/CrsxxxEP6ImpFpCZzvCw5BSXzPhaoWFiqplefjOus0FZ9xTGg1lMMTwn2ym5Mil9CwFS9PCZqiJv9hN2YOa7/nlkPIevlJLEfMoDokQdwIKMiHgMofwhgnYyXppg81FlEswaQONTochumUQNk2U2rUmBmnJedNebk3YM73DCSeZW+NN4RQS/umTDrEIX6ISumHBDRAFR/xy1qUW1KTuRHgyJrDpdelhnvStW7xKR49KReHpzQJB+PYoUAYpoD+KfznMBS8ODRTZR2xF5qcWYi3SAQICoBGVqgtsYviNwAI3Lm3AQT3mGc7m/ZJZ8HvGIuOEqt1jO+zlfwjO7CrEimRN+UZdvyeJMc/G9PdULtlYlNUGtzAQYCoasFdq+nwcknUVU+qhOz2OOIVum5pNM5oYkG6KoXaO8+mVXFkmrBqx+ZEQqQmIJ1RFbR+wWh1EYHOYBlkEXSCkCixK55gPJ7sKVB6lpk1J8MHw9zNS5s5oyVJs3MPh9AiKK3XpIL2ybsnFyTHgTAzHN7+kRQZwfqziqz7GUSSyHG/u+bBRjsozOQDuk8CUOB9Y2K3Z1xbgelDyFbdkumPiqq9Y3BmSIMSsrZUmrapMSUbWg1dyODZCK1wFLcZWfRSQk5rkmXLmWdGLFmBVLIwcC2AN1jnSL0jDPm8KQwOhTdgOsktCv3kAeFFofZElnu6ZeiSBdtvY+jEdLIfYJyoO7BLQZ9TkQpNE2JFAmJxeFpulxSYwRFRWHQ8Jmh0W1gwRCmESrTlrIkOYh0Ap7o9Bp7fd3XmKS8wuHPouoq2mXqjnPKzytSUcIZxRQidpraDPA1ekmGPlk4nprUYAiont8wOY6TcZV4DG34ljB38TAH5LP/eNicGRJ3kTE+qKy3TcNcUaEdpEZQLUv1BcAcKQIVCUKt8wUHVbZ9vbhFg3bRPE=",
+      "priv_key": "h0EptSql426PEl80/CzGQdqI/0Dp70HndPWPX/nGzVOFTp6sEB30KZhh+u08+cVyHFsL8tLw0tmXmBUHWFu+lw==",
+      "proto": "dtls",
+      "listen_addr": "0.0.0.0:56000",
+      "public_ip": "89.151.187.100",
+      "cloak": "none",
+      "provider": "provider_main"
+    }
+  },
+  "providers": {
+    "provider_main": {
+      "type": "raw",
+      "routes": [
+        {
+          "id": "https",
+          "address": "127.0.0.1",
+          "port": 443,
+          "socket": "udp",
+          "transport": "kcp",
+          "encryption": "handshake",
+          "name": "HTTPS Server"
+        }
+      ],
+      "users": [
+        {
+          "uuid": "a1d3cf8c-0834-4ac9-a59f-52b2e91bf2dd",
+          "allowed_routes": ["https"],
+          "type": "relay",
+          "peers": 5
+        }
+      ]
+    }
+  }
+}
